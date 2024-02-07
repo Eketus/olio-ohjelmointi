@@ -11,7 +11,9 @@ int main()
 
     ItalianChef Kakka("Martti");
 
+    Kakka.makeSalad();
 
+    Leevi.makeSoup();
 
 
 
