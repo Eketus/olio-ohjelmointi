@@ -17,9 +17,9 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>300</x>
+      <x>130</x>
       <y>220</y>
-      <width>201</width>
+      <width>481</width>
       <height>51</height>
      </rect>
     </property>
@@ -29,10 +29,13 @@
      </font>
     </property>
     <property name="text">
-     <string>Game ongoing</string>
+     <string>Valitse peliaika ja paina Start</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="time1_button">
     <property name="geometry">
      <rect>
       <x>260</x>
@@ -45,7 +48,7 @@
      <string>120 sec</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="time2_button">
     <property name="geometry">
      <rect>
       <x>400</x>
@@ -71,7 +74,7 @@
      <string>START GAME</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="StopGame">
     <property name="geometry">
      <rect>
       <x>410</x>
@@ -84,7 +87,7 @@
      <string>STOP GAME</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_5">
+   <widget class="QPushButton" name="Switch1">
     <property name="geometry">
      <rect>
       <x>90</x>
@@ -97,7 +100,7 @@
      <string>Switch Player</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_6">
+   <widget class="QPushButton" name="Switch2">
     <property name="geometry">
      <rect>
       <x>570</x>
@@ -110,6 +113,32 @@
      <string>Switch Player</string>
     </property>
    </widget>
+   <widget class="QProgressBar" name="progressBar">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>70</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>24</number>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="progressBar_2">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>70</y>
+      <width>118</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>24</number>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -117,7 +146,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>25</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
